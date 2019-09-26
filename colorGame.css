@@ -1,0 +1,55 @@
+
+body{
+	background-color: black;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+
+.square{
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 10px;
+}
+
+.container{
+	margin:0 auto;
+	max-width: 600px; /*without this style the auto margin wont take affect*/
+	clear:left;
+}
+
+#navBar{
+	background-color: white;
+	height:30px;
+	/*float:left;*/
+}
+
+button{
+	float:left;
+	text-align: center;
+	display:block;
+	background-color: white;
+	border:none;
+	height:20px;
+}
+
+button:hover{
+	background-color: green;
+}
+
+p{
+	color:black;
+	display: inline;
+	/*text-align:center;*/
+}
+
+.selected{
+	background-color: blue;
+}
